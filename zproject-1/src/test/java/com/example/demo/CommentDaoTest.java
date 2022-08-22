@@ -45,7 +45,7 @@ public class CommentDaoTest {
 	@Transactional
 	@Test
 	public void deleteByBnoTest() {
-		assertEquals(0, commentDao.deleteByBno(1));
+		assertEquals(0, commentDao.deleteByBno(2));
 		assertEquals(0, commentDao.deleteByBno(1500));
 	}
 }
